@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+header > img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+nav > ul > li {
+    list-style: none;
+    margin-bottom: 2em;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+nav > ul > li > a{
+    font: 2em sans-serif;
+    text-decoration: none;
+    color: #000;
+   
+   
+}
+nav > ul > li > a:hover{
+    color: bisque;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+   transition: 1s;
+    
+   
+}
+.para > h1 , .para > p{
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    padding: 2em;
+
+    
+}
+.para > p{
+    width: 50em;
+}
+.card > img {
+    width: 20em;
+    height: 20em;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em
+}
+#corp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.card{
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: rgb(215, 215, 215);
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 20em;
+    text-align: center;
+   
+}
+.card:hover{
+    background-color: bisque;
+    transition: 2s;
+   
+    transform: rotateX(360deg);
+}
+.card-para{
+    margin: 1em;
+}
+.titre{
+    margin: 1em;
+}
+footer > img{
+    width: 5%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+footer > p {
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    body{
+        width: 100%;
+    }
+    nav > ul > li > a{
+        font-size: 25px;
+    }
+    .para > p{
+        width: 15em;
+    }
+  
+    .card{
+        width: 15em;
+        margin: auto;
+    }
+    .card > img{
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    
+    body{
+        width: 100%;
+    }
+    nav > ul > li > a{
+        font-size: 20px;
+    }
+    .para > p{
+        width: 25em;
+    }
+    #corp{
+        display: block;
+    }
+    .card{
+        width: 20em;
+    }
+    .card > img{
+        width: 20em;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    
+    body{
+        width: 100%;
+    }
+    nav > ul > li > a{
+        font-size: 10px;
+    }
+    .para > p{
+        width: 15em;
+    }
+    #corp{
+        display: block;
+    }
+    .card{
+        width: 15em;
+        margin: auto;
+    }
+    .card > img{
+        width: 15em;
+    }
+}
